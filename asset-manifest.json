@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/air-tickets/static/css/main.1110c945.css",
+    "main.js": "/air-tickets/static/js/main.75f2aae3.js",
+    "static/media/turkishairlines.png": "/air-tickets/static/media/turkishairlines.035ed329dcec4484b632.png",
+    "static/media/angle.png": "/air-tickets/static/media/angle.eb7ac0c285aa1201ec01.png",
+    "index.html": "/air-tickets/index.html",
+    "main.1110c945.css.map": "/air-tickets/static/css/main.1110c945.css.map",
+    "main.75f2aae3.js.map": "/air-tickets/static/js/main.75f2aae3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1110c945.css",
+    "static/js/main.75f2aae3.js"
+  ]
+}
