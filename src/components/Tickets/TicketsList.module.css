@@ -1,0 +1,60 @@
+.home {
+  display: inline-flex;
+  text-align: center;
+}
+
+.filtration {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  border: 1px solid rgb(229, 232, 240);
+  margin-right: 10px;
+}
+
+.many {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(119, 117, 117);
+  text-align: left;
+}
+.btn {
+  padding: 10px;
+}
+.btn_el {
+  background-color: rgb(252, 252, 252);
+  height: 40px;
+  width: 80px;
+  font-weight: 700;
+  color: rgb(115, 143, 255);
+  border: 1px solid rgb(115, 143, 255);
+}
+
+.btn_el:hover {
+  background-color: rgb(218, 232, 245);
+}
+
+.btn_el:focus {
+  background-color: rgb(76, 133, 240);
+  color: white;
+}
+
+.checkbox {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(119, 117, 117);
+  text-align: left;
+  padding: 5px 0 5px 8px;
+}
+.checkbox:hover {
+  background-color: rgb(218, 232, 245);
+}
+.text {
+  display: none;
+  margin-left: 60px;
+  color: rgb(115, 143, 255);
+}
+.checkbox:hover .text {
+  background-color: rgb(218, 232, 245);
+  display: inline-block;
+}

@@ -1,0 +1,109 @@
+.tickets {
+  display: flex;
+  border: 1px solid rgb(229, 232, 240);
+  width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.turkishairlines {
+  height: 80px;
+}
+.turkishairlines__image {
+  height: 80px;
+
+  align-items: center;
+}
+
+.price {
+  align-items: center;
+  justify-content: center;
+
+  border-right: 1px solid rgb(229, 232, 240);
+}
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 130px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 133, 27);
+  border-radius: 5px;
+  border: 1px solid rgb(246, 133, 27);
+  color: white;
+  margin: 15px;
+}
+.button:hover {
+  background-color: rgb(243, 168, 98);
+  border: 1px solid rgb(243, 168, 98);
+}
+.button:focus {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.time {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.start {
+  text-align: left;
+}
+.departure_time {
+  font-size: 25px;
+}
+.origin {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.departure_date {
+  font-size: 15px;
+  color: rgb(119, 117, 117);
+  padding-top: 5px;
+}
+
+.finish {
+  text-align: right;
+}
+.arrival_time {
+  font-size: 25px;
+}
+.destination_name {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.arrival_date {
+  font-size: 15px;
+  color: rgb(119, 117, 117);
+  padding-top: 5px;
+}
+
+.line {
+  color: rgb(119, 117, 117);
+  size: 3px;
+  align-items: flex-start;
+  padding-bottom: 14px;
+  margin-left: -40px;
+}
+.vector {
+  display: inline-flex;
+  align-items: center;
+}
+.vector__image {
+  height: 15px;
+}
+.stops {
+  font-size: 15px;
+  color: rgb(119, 117, 117);
+  margin-left: -45px;
+}
